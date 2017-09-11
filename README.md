@@ -1,2 +1,13 @@
 # Mattermost-transalte-bot
-Mattermost 한/영 번역 부가 소프트웨어 입니다.
+
+|     준비물      |     Version     |
+| :------------- | :-------------- |
+| Mattermost     | 4.1.0           |
+| Mattermost Bot | 1.0.20          |
+| Anaconda       | 4.4.0           |
+
+``` Ubuntu
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt install pip
+```
