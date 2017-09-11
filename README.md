@@ -1,13 +1,12 @@
 # Mattermost-transalte-bot
 
-|     준비물      |     Version     |
-| :------------- | :-------------- |
-| Mattermost     | 4.1.0           |
-| Mattermost Bot | 1.0.20          |
-| Anaconda       | 4.4.0           |
+[Mattermost Bot](https://github.com/LPgenerator/mattermost_bot) 설치 후 translate.py 제작했습니다.
 
-``` Ubuntu
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt install pip
+## 수정
+
+```python
+    client_id =  "<PAPAGO ID>"
+    client_secret = "<PAPAGO PASSWORD>"
 ```
+`PAPAGO ID`, `PAPAGO PASSWORD` 에 대한 수정이 필요합니다.
+네이버 API 제공중인 서비스들 중 NMT translate 애플리케이션 신청하면 나오는 ID와 PASSWORD를 복사해서, `papago ID`, `papago PASSWORD`를 수정하기만 하면 됩니다.
