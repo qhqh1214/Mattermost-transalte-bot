@@ -1,7 +1,5 @@
 # Mattermost-transalte-bot
 
-[Mattermost Bot](https://github.com/LPgenerator/mattermost_bot) 설치 후 translate.py 제작했습니다.
-
 ## 수정
 
 ```python
