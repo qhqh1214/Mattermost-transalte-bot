@@ -9,8 +9,8 @@ from mattermost_bot.bot import listen_to
 # translate KR - EN
 @listen_to('`ko` (.*)')
 def KR_translate(message, translate):
-    client_id =  "<PAPAGO ID>"
-    client_secret = "<PAPAGO PASSWORD>"
+    client_id =  "<PAPAGO ID>"  # 수정
+    client_secret = "<PAPAGO PASSWORD>"  # 수정
     encText = urllib.parse.quote(translate)
     data = "source=ko&target=en&text=" + encText
     url = "https://openapi.naver.com/v1/papago/n2mt"
@@ -33,8 +33,8 @@ def KR_translate(message, translate):
 # translate EN - KR
 @listen_to('`en` (.*)')
 def EN_translate(message, translate):
-    client_id =  "<PAPAGO ID>"
-    client_secret = "<PAPAGO PASSWORD>"
+    client_id =  "<PAPAGO ID>"  # 수정
+    client_secret = "<PAPAGO PASSWORD>"  # 
     encText = urllib.parse.quote(translate)
     data = "source=en&target=ko&text=" + encText
     url = "https://openapi.naver.com/v1/papago/n2mt"
