@@ -1,4 +1,5 @@
 # Mattermost-transalte-bot
+[Mattermost bot](https://github.com/LPgenerator/mattermost_bot)을 사용함.
 
 ## 수정
 
